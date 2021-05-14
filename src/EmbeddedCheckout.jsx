@@ -3,7 +3,7 @@ import { embedCheckout } from "@bigcommerce/checkout-sdk";
 
 export default class EmbeddedCheckout extends React.Component {
   async componentDidMount() {
-    const { cartId } = this.props;
+    //const { cartId } = this.props;
 
     try {
       // Replace URL with the Embedded Checkout URL for the cart
