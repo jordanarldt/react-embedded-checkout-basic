@@ -10,7 +10,7 @@ export default class EmbeddedCheckout extends React.Component {
       // https://developer.bigcommerce.com/api-reference/store-management/carts/cart-redirect-urls/createcartredirecturl
       embedCheckout({
         containerId: "checkout-container",
-        url: "https://store.jabctools.com/cart.php?embedded=1&action=loadInCheckout&id=44319c5a-ec55-4fae-837f-b57b47aef026&token=1f25446ffbcf493a713a3557cdf290c73d9208e06dbe2eb833f64238163a4046"
+        url: "{{cart URL or Customer Login SSO URL with redirect_to as the cart URL}}"
       });
     } catch(err) {
       console.log(err);
